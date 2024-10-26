@@ -1,0 +1,44 @@
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+
+body {
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+  
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(110, 110, 110);
+  height: 350px;
+  width: 400px;
+  
+
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.quote, .author {
+  color: #FFFF;
+  font-size: 1.3em;
+}
+
+h1 {
+  background-color: crimson;
+  padding: 10px;
+  border-radius: 50px;
+}
